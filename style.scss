@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 5vh;
+
+	.input, .button, .todo-list {
+		margin-top: 3vh;
+	}
+
+	li {
+		margin: .5vw;
+		list-style: none;
+	}
+}
